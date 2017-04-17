@@ -1,0 +1,4 @@
+<block type="core/template" name="root" output="toHtml" template="newsletter/template/preview.phtml">
+   <block type="adminhtml/newsletter_template_preview" name="content" as="content"/>
+</block>
+<block type="adminhtml/newsletter_template_preview" name="preview_template"/>
